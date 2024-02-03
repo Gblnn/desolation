@@ -16,7 +16,7 @@ export default function Nav(props:Props){
                 }
                 
                 <h1 className="title">{props.title}</h1>
-                <p style={{fontSize:"1.75rem", marginBottom:"0.5rem", userSelect:'none'}}>&reg;</p>
+                {/* <p style={{fontSize:"1.75rem", marginBottom:"0.5rem", userSelect:'none'}}>&reg;</p> */}
             </div>
             <div className="nav-items" style={{display:"flex", gap:"3rem", marginRight:"3rem", alignItems:"center"}}>
                 <a>About</a>

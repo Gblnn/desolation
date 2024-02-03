@@ -14,7 +14,7 @@ export default function Home() {
                 <Nav title="Dreamstate"/>
                 {
                     
-                    <img onLoad={onLoad} style={{width:"100%", height:"100svh", objectFit:"cover"}} src="/shot.png"/>
+                    <img onLoad={onLoad} style={{width:"100%", height:"100svh", objectFit:"cover", objectPosition:"0% 50%"}} src="/shot.png"/>
         
                 }
                 
@@ -24,9 +24,10 @@ export default function Home() {
                     <div className="desc" style={{gap:"1rem"}}>
                         
                         <h1 className="heading">JOIN THE ADVENTURE.</h1>
-                        <p>World's first community collaborative development project.</p>
+                        <p>A collaborative project powered by people like you, for people like you</p>
+                        
 
-                        <br/>
+                        <div></div>
 
                         <div style={{display:'flex', gap:"1rem"}}>
 
@@ -49,11 +50,11 @@ export default function Home() {
             <div id="desolation" className="page">
                 <div className="desc" style={{display:'flex', gap:'1rem', flexFlow:'column', alignItems:'center'}}>
                     <h1 className="subheading">PROJECT DESOLATION</h1>
-                    <p>Project desolation is a collaborative project built by the community of contributors. You can participate in the development process while at the same time </p>
-                    <br/>
+                    {/* <p>Project desolation is a collaborative project built by a community of contributors. By becoming a member you can anonymously contribute your vision and ideas and get access to the pre-alpha version of the game and test it for bugs. Your queries collected from the forum will be consolidated and the best ideas will be added in the weekly update.</p>
+                    <br/> */}
                     <div className="re" style={{display:"flex", width:"100%"}}>
                     <a href="#desolation">
-                                <button className="dark btn">I still dont get it</button>
+                                <button className="dark btn">What is it?</button>
                             </a>
                     {/* <button className="white btn">Join Us</button> */}
 
@@ -61,6 +62,9 @@ export default function Home() {
                     
                 </div>
                 
+            </div>
+            <div className="page">
+
             </div>
 
         </div>
