@@ -77,7 +77,7 @@
 }
 
 .dark {
-  background-color: rgba(10 10 10/ 65%);
+  background-color: rgba(20 20 20/ 65%);
   color: white;
 }
 
@@ -88,10 +88,17 @@
   justify-content: flex-start;
 }
 
+.re {
+  justify-content: flex-start;
+}
+
 @media (width>=768px) {
   /* .nav-items a {
     display: flex;
   } */
+  .re {
+    justify-content: center;
+  }
   .desc {
     justify-content: center;
   }
